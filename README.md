@@ -70,6 +70,8 @@ python Final_Assignment.py
 
 OUTPUT:
 
+```bash
+
   Image Channel  Cell Count      Area  Normalized (by DAPI)
 0   SNP_1    DAPI        1212       NaN              1.000000
 1   SNP_1    KI67         168       NaN              0.138614
@@ -117,3 +119,4 @@ Mean Summary of Cell Count, Area, and Normalized Values:
 3    SOX2               477.25  ...             0.455652            0.554195
 
 
+```
