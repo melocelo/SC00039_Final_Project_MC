@@ -21,3 +21,17 @@ When the virtual environment with the name trial-env is created, you can activat
 # Step 3: To install JupyterLab and make trial-env available to JupyterLab
 >> conda install -c conda-forge jupyterlab
 >> ipython kernel install --user --name=trial-env
+When the environment is activated, you can verify that the correct packages are installed via:
+>> conda list
+If everything is correct, you are supposed to see the required packages (like scikit-image, pandas, seaborn, nd2reader, etc.) in the list.
+## Running the code 
+You can run the code in terminal or in Jupyter Notebook by following these steps.
+### Running in terminal
+>>conda activate trial-env
+>>python Final_Assignment.py
+Before runnning the code, be sure that you are in the directory of the code.
+### Running in Jupyter Notebook
+>>conda activate trial-env
+>>jupyter lab
+You can open the Python script or notebook in Jupyter and run the cells to execute the analysis.
+
