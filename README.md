@@ -71,6 +71,10 @@ python Final_Assignment.py
 
 OUTPUT:
 
+
+![Sample Image](Output_Images/Figure_1.png)
+
+
 ```bash
 
   Image Channel  Cell Count      Area  Normalized (by DAPI)
