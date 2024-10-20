@@ -7,6 +7,9 @@ Before running the code, be sure that you have the following installed:
 1)Conda or use an existing installation of Anaconda/Miniconda.
 2)Python 3.9
 
+## Test-data
+Since ND2 image files are big, I could not manage to upload them here. Please download Image_Analysis folder contains 4 SNP and 4 WT images into your computer before running the code via Google drive link below:
+>> https://drive.google.com/drive/folders/1e7LlDjyH3JKyG7Flhx9VhJ8vnMDfLowr?usp=share_link
 ## Installation
 ### Step 1: Clone the Repository
 Download the project files to your local machine. You can do this by cloning the repository or downloading it as a zip.
