@@ -73,6 +73,8 @@ OUTPUT:
 
 
 ![Sample Image](Output_Images/Figure_1.png)
+![Sample Image](Output_Images/Figure_2.png)
+![Sample Image](Output_Images/Figure_3.png)
 
 
 ```bash
