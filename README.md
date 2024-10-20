@@ -56,14 +56,14 @@ jupyter lab
 You can open the Python script or notebook in Jupyter and run the cells to execute the analysis. However I recommend to use Jupyter since there will be many output images rather than terminal.
 
 ### Example
-### Running in terminal
+### Running in Jupyter Notebook
 ```bash
 conda activate trial-env
 jupyter lab
 ```
 
 OR
-### Running in Jupyter Notebook
+### Running in terminal
 ```bash
 conda activate trial-env
 python Final_Assignment.py 
