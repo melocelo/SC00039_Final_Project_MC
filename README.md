@@ -8,11 +8,16 @@ Before running the code, be sure that you have the following installed:
 ## Installation
 # Step 1: Clone the Repository
 Download the project files to your local machine. You can do this by cloning the repository or downloading it as a zip.
-
->git clone <repository-url>
-
->cd <project-folder>
-
+>> git clone https://github.com/melocelo/SC00039_Final_Project_MC.git
 # Step 2: Install Conda
 If you don't already have Conda, install it by following the instructions at Miniconda.
 ## Environment Setup
+In this project, we need a Conda environment so you can create the environment from the provided environment.yml file in this repository.
+# Step 1: To create the environment that will be used to install Jupyter Lab.
+>> conda create -y -n trial-env -c conda-forge python=3.9
+# Step 2: To activate environment
+When the virtual environment with the name trial-env is created, you can activate it to install the desired packages.
+>> conda activate trial-env
+# Step 3: To install JupyterLab and make trial-env available to JupyterLab
+>> conda install -c conda-forge jupyterlab
+>> ipython kernel install --user --name=trial-env
