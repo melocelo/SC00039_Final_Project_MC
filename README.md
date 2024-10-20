@@ -69,7 +69,7 @@ conda activate trial-env
 python Final_Assignment.py 
 ```
 
-OUTPUT:
+### Output
 
 
 ![Sample Image](Output_Images/Figure_1.png)
