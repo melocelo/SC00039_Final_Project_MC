@@ -14,15 +14,24 @@ If you don't already have Conda, install it by following the instructions at Min
 ## Environment Setup
 In this project, we need a Conda environment so you can create the environment from the provided environment.yml file in this repository.
 # Step 1: To create the environment that will be used to install Jupyter Lab.
->> conda create -y -n trial-env -c conda-forge python=3.9
+```bash
+conda create -y -n trial-env -c conda-forge python=3.9
+```
 # Step 2: To activate environment
 When the virtual environment with the name trial-env is created, you can activate it to install the desired packages.
->> conda activate trial-env
+```bash
+conda activate trial-env
+```
 # Step 3: To install JupyterLab and make trial-env available to JupyterLab
->> conda install -c conda-forge jupyterlab
->> ipython kernel install --user --name=trial-env
+```bash
+>conda install -c conda-forge jupyterlab
+>ipython kernel install --user --name=trial-env
+```
+
 When the environment is activated, you can verify that the correct packages are installed via:
->> conda list
+```bash
+conda list
+```
 If everything is correct, you are supposed to see the required packages (like scikit-image, pandas, seaborn, nd2reader, etc.) in the list.
 ## Running the code 
 You can run the code in terminal or in Jupyter Notebook by following these steps.
