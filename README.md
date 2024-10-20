@@ -53,7 +53,7 @@ Before runnning the code, be sure that you are in the directory of the code.
 conda activate trial-env
 jupyter lab
 ```
-You can open the Python script or notebook in Jupyter and run the cells to execute the analysis. However I recommend to use Jupyter since there will be many output images rather than terminal.
+You can open the Python script in terminal or notebook in Jupyter and run the cells to execute the analysis. However I recommend to use Jupyter since there will be many output images rather than terminal.
 
 ### Example
 ### Running in Jupyter Notebook
