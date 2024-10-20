@@ -8,8 +8,8 @@ Before running the code, be sure that you have the following installed:
 ## Installation
 # Step 1: Clone the Repository
 Download the project files to your local machine. You can do this by cloning the repository or downloading it as a zip.
-git clone <repository-url>
-cd <project-folder>
+>git clone <repository-url>
+>cd <project-folder>
 # Step 2: Install Conda
 If you don't already have Conda, install it by following the instructions at Miniconda.
 ## Environment Setup
