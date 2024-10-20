@@ -12,7 +12,7 @@ Since ND2 image files are big, I could not manage to upload them here. Please do
 >> https://drive.google.com/drive/folders/1e7LlDjyH3JKyG7Flhx9VhJ8vnMDfLowr?usp=share_link
 ## Installation
 ### Step 1: Clone the Repository
-Download the project files to your local machine. You can do this by cloning the repository or downloading it as a zip.
+Download the project files to your computer. You can do this by cloning the repository or downloading it as a zip file.
 ```bash
 git clone https://github.com/melocelo/SC00039_Final_Project_MC.git
 ```
