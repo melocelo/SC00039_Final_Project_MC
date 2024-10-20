@@ -1,0 +1,24 @@
+name: trial-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  # Core libraries
+  - numpy
+  - pandas
+  # Image processing libraries
+  - scikit-image
+  - scipy
+  - matplotlib
+  - seaborn
+  - opencv  
+  # Jupyter and related tools
+  - jupyterlab
+  - ipykernel
+  - stackview
+  # Plotting libraries
+  - plotly
+  # pip packages
+  - pip:
+    - nd2reader
