@@ -12,13 +12,16 @@ dependencies:
   - scipy
   - matplotlib
   - seaborn
-  - opencv  
+  - opencv 
+  # .nd2 file handling
+  - nd2  # Install nd2 from conda-forge
+  - nd2reader  # Install nd2 from conda-forge
   # Jupyter and related tools
   - jupyterlab
   - ipykernel
   - stackview
   # Plotting libraries
   - plotly
-  # pip packages
-  - pip:
-    - nd2reader
+   # Optional libraries
+   - argparse 
+   - python-tk 
