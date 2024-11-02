@@ -2,21 +2,6 @@
 # coding: utf-8
 # Written by Melis Celik based on what we learned from Rafael's imaging analysis.
 
-# In[ ]:
-
-
-#get_ipython().system('pip show nd2')
-
-
-# In[ ]:
-
-
-#pip install nd2reader
-
-
-# In[56]:
-
-
 import nd2reader #to read nd2 files which is a file format from Nikon microscopes.
 import nd2
 import os #to interact with the operating systems
@@ -39,19 +24,11 @@ from nd2reader import ND2Reader
 import plotly.graph_objects as go
 from tkinter import Tk, filedialog #Pythons standard library for creating graphical user interfaces, I think it is very convenient.
 
-
-# In[57]:
-
-
 # Here we are asking user for folder path by using tkinter package
 def get_folder_path():
     Tk().withdraw()  
     folder_path = filedialog.askdirectory(title="Select Folder with ND2 Files")
     return folder_path
-
-
-# In[58]:
-
 
 # Since we are working with  ND2 files, we need to load and extract channels. There are 4 channels in these images: RED, GREEN, BLUE, FAR-RED
 def load_nd2_file(file_path):
@@ -60,10 +37,6 @@ def load_nd2_file(file_path):
         print(f"File path: {figure.path}")
         print(f"File shape: {figure.shape}")
         return image
-
-
-# In[59]:
-
 
 # Normalize channel images
 def normalize_channel(image):
@@ -78,10 +51,6 @@ def visualize_image(image, title, cmap='gray'):
     plt.title(title)
     plt.axis('off')
     plt.show()
-
-
-# In[60]:
-
 
 # Here we process each channel for segmentation 
 def process_channel(channel, channel_name):
@@ -141,9 +110,6 @@ def process_channel(channel, channel_name):
         return df, lbl  
 
 ## So far we set required parameters for image prosessing like background substraction, thresholding, border removal etc.
-
-# In[61]:
-
 
 # Main function to execute the comparison between SNP and WT images. In folder I provided 4 SNP and 4 WT image and the code was designed to group SNP and WT files seperately based on file name.
 def main():
@@ -279,11 +245,3 @@ def main():
 # This is crucial for executing main function.
 if __name__ == "__main__":
     main()
-
-
-
-# In[ ]:
-
-
-
-
