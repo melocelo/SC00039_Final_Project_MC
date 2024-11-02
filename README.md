@@ -10,6 +10,9 @@ Before running the code, be sure that you have the following installed:
 ## Test-data
 Since ND2 image files are big, I could not manage to upload them here. Please download Image_Analysis folder contains 4 SNP and 4 WT images into your computer before running the code via Google drive link below:
 >> https://drive.google.com/drive/folders/1e7LlDjyH3JKyG7Flhx9VhJ8vnMDfLowr?usp=share_link
+
+**IMPORTANT!!!: After downloading, place the ND2 image files in the same directory as the Python script to ensure the code runs correctly.**
+
 ## Installation
 ### Step 1: Clone the Repository
 Download the project files to your computer. You can do this by cloning the repository or downloading it as a zip file.
@@ -19,19 +22,18 @@ git clone https://github.com/melocelo/SC00039_Final_Project_MC.git
 ### Step 2: Install Conda
 If you don't already have Conda, install it by following the instructions at Miniconda.
 ## Environment Setup
-In this project, we need a Conda environment so you can create the environment from the provided environment.yml file in this repository.
-### Step 1: To create the environment that will be used to install Jupyter Lab.
+In this project, we need a Conda environment so you can create and activate the environment from the provided environment.yml file in this repository.
+### Step 1: To create the environment with all necessary dependencies, use the following command:
 ```bash
-conda create -y -n trial-env -c conda-forge python=3.9
+conda env create --file=environment.yml
 ```
 ### Step 2: To activate environment
 When the virtual environment with the name trial-env is created, you can activate it to install the desired packages.
 ```bash
 conda activate trial-env
 ```
-### Step 3: To install JupyterLab and make trial-env available to JupyterLab
+### Step 3: (Optional and suggested) Make trial-env available as a Jupyter kernel if you plan to use Jupyter Notebook
 ```bash
-conda install -c conda-forge jupyterlab
 ipython kernel install --user --name=trial-env
 ```
 
@@ -39,7 +41,7 @@ When the environment is activated, you can verify that the correct packages are 
 ```bash
 conda list
 ```
-If everything is correct, you are supposed to see the required packages (like scikit-image, pandas, seaborn, nd2reader, etc.) in the list.
+If everything is correct, you are supposed to see the required packages (like scikit-image, pandas, seaborn, nd2 and nd2reader, etc.) in the list.
 ## Running the code 
 You can run the code in terminal or in Jupyter Notebook by following these steps.
 ### Running in terminal
@@ -47,7 +49,7 @@ You can run the code in terminal or in Jupyter Notebook by following these steps
 conda activate trial-env
 python Final_Assignment.py
 ```
-Before runnning the code, be sure that you are in the directory of the code.
+**Before runnning the code, ensure you are in the project’s directory before running the code.**
 ### Running in Jupyter Notebook
 ```bash
 conda activate trial-env
