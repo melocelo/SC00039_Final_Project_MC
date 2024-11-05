@@ -23,16 +23,12 @@ git clone https://github.com/melocelo/SC00039_Final_Project_MC.git
 If you don't already have Conda, install it by following the instructions at Miniconda.
 ## Environment Setup
 In this project, we need a Conda environment so you can create and activate the environment from the provided environment.yml file in this repository.
-### Step 1: To create the environment with all necessary dependencies, use the following command:
-```bash
-conda env create --file=environment.yml
-```
-### Step 2: To activate environment
-When the virtual environment with the name trial-env is created, you can activate it to install the desired packages.
+### Step 1: To activate environment
+When the virtual environment with the name trial-env is installed, you can activate it to install the desired packages.
 ```bash
 conda activate trial-env
 ```
-### Step 3: (Optional and suggested) Make trial-env available as a Jupyter kernel if you plan to use Jupyter Notebook
+### Step 2: (Optional and suggested) Make trial-env available as a Jupyter kernel if you plan to use Jupyter Notebook
 ```bash
 ipython kernel install --user --name=trial-env
 ```
