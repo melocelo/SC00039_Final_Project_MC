@@ -22,6 +22,10 @@ dependencies:
   - stackview
   # Plotting libraries
   - plotly
-   # Optional libraries
-   - argparse 
-   - python-tk 
+  # Optional libraries
+  - argparse 
+  - python-tk 
+  # pip packages
+  - pip:
+    - nd2reader
+    - nd2
