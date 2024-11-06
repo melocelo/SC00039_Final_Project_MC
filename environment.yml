@@ -13,9 +13,6 @@ dependencies:
   - matplotlib
   - seaborn
   - opencv 
-  # .nd2 file handling
-  - nd2  # Install nd2 from conda-forge
-  - nd2reader  # Install nd2 from conda-forge
   # Jupyter and related tools
   - jupyterlab
   - ipykernel
@@ -27,5 +24,5 @@ dependencies:
   - python-tk 
   # pip packages
   - pip:
-    - nd2reader
     - nd2
+    - nd2reader
